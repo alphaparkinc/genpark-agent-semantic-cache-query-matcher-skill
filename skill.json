@@ -1,0 +1,13 @@
+{
+  "name": "genpark-agent-semantic-cache-query-matcher-skill",
+  "version": "1.0.0",
+  "description": "Fast semantic query cache with fuzzy term similarity and canonical intent hashing to avoid duplicate LLM invocations",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "cache_set",
+      "cache_get",
+      "cache_stats"
+    ]
+  }
+}
