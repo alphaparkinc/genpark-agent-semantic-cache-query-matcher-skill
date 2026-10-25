@@ -1,0 +1,4 @@
+name: genpark-agent-semantic-cache-query-matcher-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
